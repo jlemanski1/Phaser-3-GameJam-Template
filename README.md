@@ -33,7 +33,7 @@ Includes the following scenes
 - Game: main logic
 
 - - -
-## Customizing Template
+## Customizing The Template
 
 ### Babel
 You can write modern ES6+ JavaScript and Babel will transpile it to a version of JavaScript that you
@@ -65,8 +65,4 @@ you should be able to open `http://mycoolserver.com/index.html` and play your ga
 
 Pull requests are welcome. For major changes, please open an issue first to discuss proposed changes.
 
-- - -
-## License
-
-[GPL v3.0](https://choosealicense.com/licenses/gpl-3.0/)
 - - -
