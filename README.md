@@ -1,22 +1,22 @@
-#Phaser 3 GameJam Template
-- - -
+# Phaser 3 GameJam Template
 
-...description...
+    ...description...
 
 - - -
-##Features
+## Features
 ...
 
 - - -
-##Installation
+## Installation
 ...
 
 - - -
-##Contributing
+## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss proposed changes.
 
 - - -
 
-##License
+## License
 [GPL v3.0](https://choosealicense.com/licenses/gpl-3.0/)
 - - -
