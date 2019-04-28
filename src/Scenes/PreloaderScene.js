@@ -5,6 +5,11 @@ export default class PreloaderScene extends Phaser.Scene {
         super("Preloader");
     }
 
+    init() {
+        this.readyCount = 0;
+    }
+
+
     preload() {
         // Display Game Logo
         this.add.image(400, 200, "logo");   // Replace with Game/Studio Logo
@@ -90,16 +95,13 @@ export default class PreloaderScene extends Phaser.Scene {
         
     }
     
+    ready() {
+        this.scene.start("Title");
+        this.readyCount++;
+        if (this.readyCount === 2) {
+            this.scene.start("Title");
+        }
+    }
 };
 
 
-function init() {
-    this.readyCount = 0;
-}
-
-function ready() {
-    this.readyCount++;
-    if (this.readyCount === 2) {
-        this.scene.start("Title");
-    }
-}
