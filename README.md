@@ -28,7 +28,7 @@ Includes the following scenes
 - Boot: the first scene that is loaded by Phaser. Loads the assets required for the preloader             Scene
 - Preloader: displays a logo, a progress bar, and loads all the required game assets.
 - Title: the game's title screen, also displays buttons to start the game, modify options, and             view credits.
-- Options: will contain any settings that player's are able to modify in-game.
+- Options: will contain any settings that players are able to modify in-game.
 - Credits: the credits for the game
 - Game: main logic
 
